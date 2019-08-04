@@ -60,6 +60,7 @@ const createRouter = (isSigned = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#fff',
