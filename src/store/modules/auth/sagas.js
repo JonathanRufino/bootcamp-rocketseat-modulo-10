@@ -30,7 +30,7 @@ export function* signIn({ payload }) {
 
     // history.push('/dashboard');
   } catch (err) {
-    Alert.error(
+    Alert.alert(
       'Falha na autenticação',
       'Houve um erro no login, verifique seus dados'
     );
@@ -53,7 +53,7 @@ export function* signUp({ payload }) {
 
     // history.push('/');
   } catch (err) {
-    Alert.error(
+    Alert.alert(
       'Falha no cadastro',
       'Houve um erro no cadastro, verifique seus dados'
     );
