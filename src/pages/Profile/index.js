@@ -5,15 +5,15 @@ import Background from '~/components/Background';
 
 // import { Container } from './styles';
 
-function Dashboard() {
+function Profile() {
   return <Background />;
 }
 
-Dashboard.navigationOptions = {
-  tabBarLabel: 'Agendamentos',
+Profile.navigationOptions = {
+  tabBarLabel: 'Meu perfil',
   tabBarIcon: ({ tintColor }) => (
-    <Icon name="event" size={20} color={tintColor} />
+    <Icon name="person" size={20} color={tintColor} />
   ),
 };
 
-export default Dashboard;
+export default Profile;
